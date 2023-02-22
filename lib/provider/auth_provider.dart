@@ -49,7 +49,7 @@ class AuthProvider extends ChangeNotifier{
         PhoneAuthProvider.credential(
             verificationId: verID,
             smsCode: otpPin)
-    ).whenComplete(() => Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context)=>BottomBarView()), (route) => false));
+    ).whenComplete(() => Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context)=>LogInScreen()), (route) => false));
   }
 
   Future <void> SignUp({required String email,password, name, phonenumber,favouritesport,
@@ -114,7 +114,7 @@ class AuthProvider extends ChangeNotifier{
         "userName": name,
         "userEmail": email,
       }).whenComplete(() {
-        Navigator.push(context, MaterialPageRoute(builder: (context)=>BottomBarView()));
+        Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context)=>BottomBarView()), (route) => false);
     });
     notifyListeners();
     }
