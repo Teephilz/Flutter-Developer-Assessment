@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "364251398287",
+    "project_id": "messaging-app-6100d",
+    "storage_bucket": "messaging-app-6100d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364251398287:android:aa222ff13992fed32c70fa",
+        "android_client_info": {
+          "package_name": "com.example.flutter_assessment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364251398287-47ndsdan5r7i0nof3vil3t6l1i32frfp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEXZysFPZHWExKBC8wH143v-ljmAMd1vs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364251398287-47ndsdan5r7i0nof3vil3t6l1i32frfp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "364251398287-s39cl03l6o2q7m0ms3gdvjonqd6p5smu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.messagingApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
